@@ -1,8 +1,8 @@
 # class-custom-post-types
 Helper class custom post types for wordpress
 
-/* Ejemplo */
-/* Por defecto todos los parametros son true */
+/* Ejemplo */<br />
+/* Por defecto todos los parametros son true */<br />
 $productos = new CustomPostType('Producto', 'Productos', 'o', array(
     "capability_type" => "post",
     'supports'  => array( 'title' ),
